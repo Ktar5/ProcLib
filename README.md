@@ -1,4 +1,9 @@
-# ProcLib(gdx?)
+<h1 align="center"> ProcLib </h1> <br>
+<p align="center">
+  <a href="https://github.com/Ktar5/ProcLib">
+    <img alt="Header" title="Header" src="https://i.imgur.com/79Za4X7.gifv" width="450">
+  </a>
+</p>
 > This procedural library does things
 
 [![GitHub release](https://img.shields.io/github/release/Ktar5/ProcLib.svg)]()
@@ -8,8 +13,6 @@
 [![GitHub license](https://img.shields.io/github/license/Ktar5/ProcLib.svg?style=flat-square)](https://github.com/Ktar5/ProcLib/blob/master/License.txt)
 
 One to two paragraph statement about your product and what it does.
-
-<p align="center">![](header.gif)</p> 
 
 ## Installation
 
