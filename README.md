@@ -20,7 +20,7 @@
       alt="Git Stars" />
   </a>
   <!-- Build Status -->
-  <a href="https://github.com/Ktar5/ProcLib">
+  <a href="https://travis-ci.org/Ktar5/ProcLib">
     <img src="https://img.shields.io/travis/Ktar5/ProcLib.svg?style=flat-square"
       alt="Travis Build Status" />
   </a>
