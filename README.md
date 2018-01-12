@@ -1,7 +1,7 @@
 <h1 align="center"> ProcLib </h1> <br>
 <p align="center">
   <a href="https://github.com/Ktar5/ProcLib">
-    <img alt="Header" title="Header" src="https://i.imgur.com/79Za4X7.gifv" width="450">
+    <img alt="Header" title="Header" src="https://i.imgur.com/79Za4X7.gif">
   </a>
 </p>
 > This procedural library does things
