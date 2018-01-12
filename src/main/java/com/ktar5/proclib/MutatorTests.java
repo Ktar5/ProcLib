@@ -4,6 +4,7 @@ import com.ktar5.proclib.mutators.Display.PrintMethod;
 import com.ktar5.proclib.mutators.Partition.PartitionShape;
 import com.ktar5.proclib.mutators.Produce;
 import com.ktar5.proclib.mutators.Resize;
+import com.ktar5.proclib.mutators.Resize.ResizeDirection;
 import com.ktar5.proclib.mutators.blob.Blob;
 import com.ktar5.proclib.mutators.blob.BlobData;
 import com.ktar5.proclib.mutators.smooth.Neighborhood;
@@ -14,12 +15,21 @@ import java.util.List;
 public class MutatorTests {
 
     public static void main(String[] args) {
-        testStretch();
+        testResize();
     }
 
     public static void print(ProceduralData proceduralData, PrintMethod printMethod) {
         proceduralData.printSeparator();
         proceduralData.print(printMethod);
+    }
+
+    public static void testResize(){
+        ProceduralData procArray = new ProceduralData(5, 5, "resize");
+        procArray.clearData(1);
+        //procArray.noise(.5f, 0);
+        print(procArray, PrintMethod.SYMBOLS);
+            Resize.resize(procArray, Pair.of(11,11), 0, ResizeDirection.HORIZONTAL, ResizeDirection.TOP);
+        print(procArray, PrintMethod.SYMBOLS);
     }
 
     public static void testStretch() {

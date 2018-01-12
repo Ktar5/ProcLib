@@ -6,7 +6,6 @@ import com.ktar5.proclib.util.Pair;
 
 public class Resize {
 
-    //TODO work on
     public static void resize(ProceduralData proc, Pair newDimensions, int infill, ResizeDirection xDir, ResizeDirection yDir) {
         if (yDir == ResizeDirection.VERTICAL && (newDimensions.y - proc.getRows()) % 2 != 0)
             throw new RuntimeException("Cannot evenly pad Top & Bottom of array when required padding is odd");
@@ -17,16 +16,31 @@ public class Resize {
         if (!yDir.isY())
             throw new RuntimeException(yDir.name() + " is not a direction on the yAxis.");
 
-        int baseX = 0, baseY = 0;
         int[][] newArray = new int[newDimensions.y][newDimensions.x];
-        //DO X CHOPPPING
-        if (newDimensions.x < proc.getColumns()) {
-
-        }else if(newDimensions.x > proc.getColumns()){
-
+        int xPad = 0, yPad = 0;
+        if (xDir == ResizeDirection.HORIZONTAL) {
+            xPad = (proc.getColumns() - newDimensions.x) / 2;
+        } else if (xDir == ResizeDirection.LEFT) {
+            xPad = (proc.getColumns() - newDimensions.x);
         }
-        //System.arraycopy();
 
+        if (yDir == ResizeDirection.VERTICAL) {
+            yPad = (proc.getRows() - newDimensions.y) / 2;
+        } else if (yDir == ResizeDirection.BOTTOM) {
+            yPad = (proc.getRows() - newDimensions.y);
+        }
+
+        for (int x = 0; x < newDimensions.x; x++) {
+            for (int y = 0; y < newDimensions.y; y++) {
+                if (proc.isInRange(y + yPad, x + xPad)) {
+                    newArray[y][x] = proc.data()[y + yPad][x + xPad];
+                } else {
+                    newArray[y][x] = infill;
+                }
+            }
+        }
+
+        proc.setData(newArray);
     }
 
     public enum ResizeDirection {
