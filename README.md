@@ -4,8 +4,9 @@
     <img alt="Header" title="Header" src="https://i.imgur.com/79Za4X7.gif">
   </a>
 </p>
-
-> This procedural library does things
+<div align="center">
+  <strong>A procedural content generation library for use in Java with support for LibGDX</strong>
+</div>
 
 <div align="center">
   <!-- Github Release -->
@@ -37,48 +38,23 @@
 
 One to two paragraph statement about your product and what it does.
 
-## Installation
+## Usage
+>Todo
 
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
-
-## Usage example
-
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+## Examples
+>Todo
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
-## Development setup
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
-```
+##Maven / Gradle
+>Todo
 
 ## Release History
 - None yet
 
-## Meta
-
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
-
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
-
 ## Contributing
-
+>Todo
 1. Fork it (<https://github.com/yourname/yourproject/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
@@ -92,3 +68,7 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [wiki]: https://github.com/yourname/yourproject/wiki
+
+
+<br></br>
+Carter Gale – [@Ktar5](https://twitter.com/ktar5) – ktarfive@gmail.com – [Github](https://github.com/ktar5/)
