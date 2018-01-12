@@ -9,7 +9,7 @@
 
 One to two paragraph statement about your product and what it does.
 
-![](header.gif)
+<p align="center">![](header.gif)</p> 
 
 ## Installation
 
