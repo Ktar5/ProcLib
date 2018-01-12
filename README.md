@@ -3,8 +3,9 @@
 
 [![GitHub release](https://img.shields.io/github/release/Ktar5/ProcLib.svg)]()
 [![Build Status](https://img.shields.io/travis/rust-lang/rust.svg)]()
-[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=flat&label=Fork)]()
+[![GitHub stars](https://img.shields.io/github/stars/Ktar5/ProcLib.svg?style=flat-square)](https://github.com/Ktar5/ProcLib/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields)](http://makeapullrequest.com)
+[![GitHub license](https://img.shields.io/github/license/Ktar5/ProcLib.svg?style=flat-square)](https://github.com/Ktar5/ProcLib/blob/master/License.txt)
 
 One to two paragraph statement about your product and what it does.
 
