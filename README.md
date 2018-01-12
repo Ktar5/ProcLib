@@ -41,7 +41,34 @@ functions that relate to 2D int-array manipulation and rendering. However, in th
 project to support a significant amount of random/procedural generation algorithms that can be implemented as-is
 in your project or be used as a sample for implementation and execution of these algorithms.
 
-## Usage
+## Examples
+>Todo
+
+Example stretching
+```java
+    ProceduralData procArray = new ProceduralData(20, 20, "stretch");
+    Pair[] pairs = Neighborhood.DONUT.getPairs(5);
+    for (Pair pair : pairs) {
+        procArray.set(pair.x + 10, pair.y + 10, 1);
+    }
+    procArray = Resize.stretch(procArray, 1.0f, 1.5f);
+    print(procArray, PrintMethod.SYMBOLS);
+```
+
+Example detecting and isolating blobs with `size > 3`
+```java
+    ProceduralData procArray = new ProceduralData(10, 10, "blobs");
+    procArray.noise(.45f, 1);
+    procArray.findBlobs(new BlobData()
+            .filter(BlobData.BlobFilter.ABOVE, 3)
+            .overwriteGiven(true)
+            .render(BlobData.BlobRender.ONE));
+    print(procArray, PrintMethod.SYMBOLS);
+```
+
+_For more examples and usage, please refer to the [Wiki][wiki]._
+
+## Installation
 If running Gradle, simple put the following into your `build.gradle`
 ```groovy
 repositories {
@@ -55,12 +82,10 @@ dependencies {
 
 Or if you are running Maven, put the following into your `pom.xml`
 ```xml
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-</repositories>
+<repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+</repository>
 ...
 <dependency>
     <groupId>com.github.Ktar5</groupId>
@@ -68,11 +93,6 @@ Or if you are running Maven, put the following into your `pom.xml`
     <version>master-SNAPSHOT</version>
 </dependency>
 ```
-
-## Examples
->Todo
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Release History
 - None yet
