@@ -7,11 +7,33 @@
 
 > This procedural library does things
 
-[![GitHub release](https://img.shields.io/github/release/Ktar5/ProcLib.svg)]()
-[![Build Status](https://img.shields.io/travis/rust-lang/rust.svg)]()
-[![GitHub stars](https://img.shields.io/github/stars/Ktar5/ProcLib.svg?style=flat-square)](https://github.com/Ktar5/ProcLib/stargazers)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields)](http://makeapullrequest.com)
-[![GitHub license](https://img.shields.io/github/license/Ktar5/ProcLib.svg?style=flat-square)](https://github.com/Ktar5/ProcLib/blob/master/License.txt)
+<div align="center">
+  <!-- Github Release -->
+  <a href="https://github.com/Ktar5/ProcLib">
+    <img src="https://img.shields.io/github/release/Ktar5/ProcLib.svg"
+      alt="Github Release" />
+  </a>
+  <!-- Git Stars -->
+  <a href="https://github.com/Ktar5/ProcLib/stargazers">
+    <img src="https://img.shields.io/github/stars/Ktar5/ProcLib.svg?style=flat-square"
+      alt="Git Stars" />
+  </a>
+  <!-- Build Status -->
+  <a href="https://github.com/Ktar5/ProcLib">
+    <img src="https://img.shields.io/travis/Ktar5/ProcLib.svg"
+      alt="Travis Build Status" />
+  </a>
+  <!-- PR Welcome -->
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields"
+      alt="PR" />
+  </a>
+  <!-- License -->
+  <a href="https://github.com/Ktar5/ProcLib/blob/master/License.txt">
+    <img src="https://img.shields.io/github/license/Ktar5/ProcLib.svg?style=flat-square"
+      alt="License" />
+  </a>
+</div>
 
 One to two paragraph statement about your product and what it does.
 
