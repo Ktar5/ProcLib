@@ -11,7 +11,7 @@
 <div align="center">
   <!-- Github Release -->
   <a href="https://github.com/Ktar5/ProcLib">
-    <img src="https://img.shields.io/github/release/Ktar5/ProcLib.svg"
+    <img src="https://img.shields.io/github/release/Ktar5/ProcLib.svg?style=flat-square"
       alt="Github Release" />
   </a>
   <!-- Git Stars -->
@@ -21,12 +21,12 @@
   </a>
   <!-- Build Status -->
   <a href="https://github.com/Ktar5/ProcLib">
-    <img src="https://img.shields.io/travis/Ktar5/ProcLib.svg"
+    <img src="https://img.shields.io/travis/Ktar5/ProcLib.svg?style=flat-square"
       alt="Travis Build Status" />
   </a>
   <!-- PR Welcome -->
   <a href="http://makeapullrequest.com">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields"
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"
       alt="PR" />
   </a>
   <!-- License -->
