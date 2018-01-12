@@ -2,8 +2,8 @@
 > This procedural library does things
 
 [![GitHub release](https://img.shields.io/github/release/Ktar5/ProcLib.svg)]()
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+[![Build Status](https://img.shields.io/travis/rust-lang/rust.svg)]()
+[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=flat&label=Fork)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields)](http://makeapullrequest.com)
 
 One to two paragraph statement about your product and what it does.
