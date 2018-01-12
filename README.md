@@ -36,19 +36,43 @@
   </a>
 </div>
 
-One to two paragraph statement about your product and what it does.
+This library was created with inspiration from @Durango. Currently, this toolkit only has a small amount of
+functions that relate to 2D int-array manipulation and rendering. However, in the future I hope to grow this
+project to support a significant amount of random/procedural generation algorithms that can be implemented as-is
+in your project or be used as a sample for implementation and execution of these algorithms.
 
 ## Usage
->Todo
+Gradle:
+```groovy
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+...
+dependencies {
+    compile 'com.github.User:Repo:Tag'
+}
+```
+
+Maven:
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+...
+<dependency>
+    <groupId>com.github.Ktar5</groupId>
+    <artifactId>ProcLib</artifactId>
+    <version>master-SNAPSHOT</version>
+</dependency>
+```
 
 ## Examples
 >Todo
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
-
-
-##Maven / Gradle
->Todo
 
 ## Release History
 - None yet
