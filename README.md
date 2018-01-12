@@ -42,18 +42,18 @@ project to support a significant amount of random/procedural generation algorith
 in your project or be used as a sample for implementation and execution of these algorithms.
 
 ## Usage
-Gradle:
+If running Gradle, simple put the following into your `build.gradle`
 ```groovy
 repositories {
     maven { url 'https://jitpack.io' }
 }
 ...
 dependencies {
-    compile 'com.github.User:Repo:Tag'
+    compile 'com.github.Ktar5:ProcLib:master-SNAPSHOT'
 }
 ```
 
-Maven:
+Or if you are running Maven, put the following into your `pom.xml`
 ```xml
 <repositories>
     <repository>
